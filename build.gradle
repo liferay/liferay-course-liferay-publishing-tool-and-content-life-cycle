@@ -1,5 +1,6 @@
-// Check GETTING_STARTED.markdown for information regarding usage.
 
+// Modify the initBundle task to delete the elasticsearch7 and osgi/state directories
+// This ensures a clean build environment
 tasks.named('initBundle').configure {
     doLast {
         def es7Dir = new File("${rootProject.projectDir}/bundles/data/elasticsearch7")
@@ -12,4 +13,3 @@ tasks.named('initBundle').configure {
         }
     }
 }
-
