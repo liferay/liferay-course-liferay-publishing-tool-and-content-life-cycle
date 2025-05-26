@@ -4,6 +4,7 @@ gradle-local.properties
 /client-extensions/liferay-clarity-theme-css/build/
 /client-extensions/liferay-clarity-theme-css/dist/
 /client-extensions/liferay-clarity-site-initializer/dist/
+/client-extensions/.idea
 /node_modules/
 /node_modules_cache/
 /build/
