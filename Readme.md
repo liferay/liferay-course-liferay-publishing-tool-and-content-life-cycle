@@ -1,4 +1,4 @@
-# Mastering Backend Liferay Client Extensions
+# publishing-tool-and-content-life-cycle
 
 This repository contains the Mastering Backend Liferay Client Extensions course materials.
 
