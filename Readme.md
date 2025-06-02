@@ -1,6 +1,6 @@
-# publishing-tool-and-content-life-cycle
+# Publishing Tools and Content Life Cicle 
 
-This repository contains the Mastering Backend Liferay Client Extensions course materials.
+This repository contains the Publishing Tools and Content Life Cicle course materials.
 
 ## Table of Contents
 
@@ -45,7 +45,9 @@ Once you have prepared your Liferay bundle, you can start and stop it using the 
 
    This will give you access to the Liferay environment where you can deploy and test your modules.
 
-3. **Stop the Bundle**: When you are done working with the Liferay bundle, you can stop the server by executing the following command:
+3. **Manual Reindex is needed**! Go to Control Panel -> Search -> Index Actions and perform a full reindex.
+
+4. **Stop the Bundle**: When you are done working with the Liferay bundle, you can stop the server by executing the following command:
    ```
    blade server stop
    ```
